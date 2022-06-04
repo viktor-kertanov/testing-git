@@ -12,7 +12,7 @@ def unique_elements_of_list(my_list):
     return list(my_set)
 
 if __name__ == '__main__':
-    my_str = 'Витя, привет дорогой!'
+    my_str = 'Hello, World!'
     rev_str = reverse_eng(my_str)
 
     a = ['cat', 'dog', 'bog', 'sog', 'sog', 'rog', 'clog', 'dog', 'dog', 'cat']
