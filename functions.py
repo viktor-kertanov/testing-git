@@ -9,8 +9,7 @@ def reverse_eng(string):
 
 def unique_elements_of_list(my_list):
     my_set = set(my_list)
-    new_list = list(my_set)
-    return new_list
+    return list(my_set)
 
 if __name__ == '__main__':
     my_str = 'Витя, привет дорогой!'
