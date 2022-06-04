@@ -11,6 +11,9 @@ def unique_elements_of_list(my_list):
     my_set = set(my_list)
     return list(my_set)
 
+def have_fun():
+    return ('So, Have fun!')
+
 if __name__ == '__main__':
     my_str = 'Hello, World!'
     rev_str = reverse_eng(my_str)
