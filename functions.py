@@ -12,7 +12,8 @@ def unique_elements_of_list(my_list):
     return list(my_set)
 
 def have_fun():
-    return ('So, Have fun!')
+    my_input = input('Type your name please!\n')
+    print(f'{my_input} - you, have fun!')
 
 if __name__ == '__main__':
     my_str = 'Hello, World!'
@@ -23,3 +24,5 @@ if __name__ == '__main__':
     print(f'No dupes: {unique_elements_of_list(a)}.')
     print('-'*100)
     print(rev_str)
+
+    have_fun()
