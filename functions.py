@@ -12,7 +12,7 @@ def unique_elements_of_list(my_list):
     return list(my_set)
 
 def have_fun():
-    my_input = input('Type your name please!\n')
+    my_input = input('Type your surname please!\n')
     print(f'{my_input} - you, have fun!')
 
 if __name__ == '__main__':
